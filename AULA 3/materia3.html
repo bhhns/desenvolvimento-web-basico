@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU QUERO CAGAR</title>
+    <link rel="stylesheet" href="materia3.css">  <!--arquivo externo CSS-->
+    <style>
+        body{
+            background-color: gray; /* serve pra mudar cor de fundo*/
+        }
+
+        h1{
+            color: chocolate; /* caso tenha um desse e no CSS externo vai aparecer esse por estar mais perto da tag no caso h1*/
+        }
+    </style>
+</head>
+<body>
+    <!-- Modo 1 de associar CSS - direto no HTML-->
+    <h1 style="text-align: center;color: darkmagenta;">Introdução ao CSS </h1> <!-- e agora vai usar essa por estar dentro da tag -->
+
+    <p id="mesmo" class="myclass newclass">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nihil ratione similique inventore excepturi, beatae neque sunt molestiae quis 
+        eligendi aspernatur iste at est modi laborum dolorum culpa perferendis. Voluptates.
+    </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, dolor sapiente laborum quo, recusandae atque fugiat eaque corporis 
+            eius vel voluptatibus. Quisquam sapiente odit repudiandae? Maxime esse qui voluptates sequi.
+        </p>
+
+    <h2>Seletores CSS</h2>
+    <p class="myclass">Existem 3 tipos de seletores CSS</p>
+    <ul>
+        <li>Seletores de elementos</li>
+        <li class="myclass newclass">Seletores de classes</li>
+        <li>Seletores de IDs</li>
+    </ul>
+
+    <div class="teste-cores myclass">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nostrum atque, id consequatur, facere quasi qui maiores cupiditate 
+            accusantium doloribus repudiandae in accusamus at enim facilis ratione voluptas officiis. Quaerat.
+        </p>
+    </div>
+</body>
+</html>

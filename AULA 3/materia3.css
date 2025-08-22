@@ -1,0 +1,44 @@
+/* h1, h1, p
+    text-align: center;
+    width: 50%;
+    color: darkmagenta;
+  faz isso em todos que tiverem essas tags */
+
+
+/* Seletor de elementos*/ /* pega todos os elementos escolhido */
+p{
+    color:blue;
+
+}
+h1{
+    color: navy;
+}
+
+/* Seletor de IDs */ /* pega um elemento específico pelo seu ID */
+#mesmo{
+    color:darkmagenta;
+    text-align: center;
+    width: 50%;
+}
+
+/* Seletor de classes */ /* pega todos os elementos com a classe especificada */
+.myclass{  /* o . indica uma classe */
+    border: 0.2em ridge red;
+}
+/* Junção de seletores */
+li.myclass{
+    font-size: xx-large;
+}
+
+.newclass{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* muda a fonte do site inteiro */
+}
+
+.teste-cores{
+    padding: 1%;
+    background-color: rgba(229, 77, 234, 0.5);
+}   
