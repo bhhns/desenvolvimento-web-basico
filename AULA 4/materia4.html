@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo tags</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Tags e CSS</h1>
+    <h2>Tabelas</h2>
+    <table border="1">
+        <tr> (<!-- table row (linha)-->)
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>bruno</td>
+            <td>18</td>
+        </tr>
+    </table>
+
+    <p>Exemplo de tabela com cabeçalho (thead), corpo (tbody) e rodape (tfoot)</p>
+    <table border="1">
+        <thead>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Media</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bruno</td>
+                <td>5</td>
+                <td>8</td>
+                <td>6.5</td>
+            </tr>
+            
+            <tr>
+                <td>Pedro</td>
+                <td>7</td>
+                <td>6</td>
+                <td>6.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4">Tabela de notas dos alunos</th>
+        </tfoot>
+    </table>
+
+    <p>Colspan e Rowspan - mesclando celulas</p>
+
+    <p>ROWSPAN</p>
+    <table border="1">
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2"> Dado 1</td>
+            <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+            <td>Dado 4</td>
+        </tr>
+    </table>
+<p>COLSPAN</p>
+    <table border="1">
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+</html>
