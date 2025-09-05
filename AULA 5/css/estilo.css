@@ -1,0 +1,56 @@
+/* seletor de elementos */
+
+body{
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid;
+}
+
+/*seletor de classe */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: cornflowerblue;
+    width: 30%;
+    padding: 1rem;
+    margin-right: 1rem; /* Espaçamento entre o menu e o conteúdo */
+
+}
+
+.conteudo{
+    padding: 2rem;
+    width: 70%;
+}
+
+.item-menu{
+    padding: 0.5rem;
+    margin: 1rem 0rem 1rem 0rem; /* Espaçamento entre os itens do menu */
+    list-style: none;   /* remove as bolinha da lista*/
+    border-bottom: solid;
+}
+
+
+
+.item-menu:hover{
+    background-color: blue;
+}
+
+section{
+    margin-top: 10rem;
+    padding: 2rem;
+}
+
+#sec1{
+    background-color: beige;
+}
+
+#sec2{
+    background-color: beige;
+}
+
+#sec3{
+    background-color: beige;
+}
